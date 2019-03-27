@@ -7,7 +7,7 @@ function openOrSenior(data) {
       arr.push("Open");
     }
   });
-  console.log(arr);
+  return arr;
 }
 
 openOrSenior([[45, 12], [55, 21], [19, -2], [104, 20]]);
